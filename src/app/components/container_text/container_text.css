@@ -8,6 +8,7 @@ section.color {
     hsl(240, 50%, 60%),
     hsl(312, 100%, 70%)
   );
+  padding: 5px 5px;
 }
 
 section.transparent {
@@ -19,7 +20,7 @@ section.transparent {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   padding: 15px;
 }
@@ -30,7 +31,7 @@ section.transparent {
 
 .text_white {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 1.1rem;
   text-align: center;
