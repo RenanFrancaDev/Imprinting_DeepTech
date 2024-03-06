@@ -44,6 +44,12 @@ root {
   border: 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -62,6 +68,33 @@ h4 {
   font-weight: 500;
   line-height: 1.2;
   font-size: 2rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.color {
+  background: linear-gradient(
+    to right,
+    hsl(240, 50%, 60%),
+    hsl(312, 100%, 70%)
+  );
+}
+
+.div_color {
+  background: linear-gradient(
+    to right,
+    hsl(240, 50%, 60%),
+    hsl(312, 100%, 70%)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 5px;
+  gap: 1px;
+}
+
+.div_color p {
+  padding: 5px 5px;
 }
 
 /* 
