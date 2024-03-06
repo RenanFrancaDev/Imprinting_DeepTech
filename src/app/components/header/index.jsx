@@ -10,17 +10,22 @@ const Header = () => {
   };
 
   return (
-    <header id="header">
+    <header id="header" className="color">
       <div className="navegacao">
-        <h3 className="title_header">Imprinting</h3>
+        <a href="/">
+          <h3 className="title_header">Imprinting</h3>
+        </a>
         <ul className="list">
-          <a href="#">
+          <a href="/">
             <li>Home</li>
           </a>
-          <a href="#">
-            <li>Sobre Nós</li>
+          <a href="/quem-somos">
+            <li>Quem Somos</li>
           </a>
-          <a href="#">
+          <a href="/visao">
+            <li>Visão</li>
+          </a>
+          <a href="/contato">
             <li>Contato</li>
           </a>
           {/* <input type="checkbox" className="checkbox" id="chk" />
@@ -39,18 +44,24 @@ const Header = () => {
       </div>
       {active && (
         <div className="navbarMobile">
-          <ul className="listmobile">
-            <a href="#presentation" onClick={handleClick}>
+          <ul className="listmobile color">
+            <a href="/" onClick={handleClick}>
               <li>Home</li>
             </a>
-            <a href="#about2" onClick={handleClick}>
-              <li>About Me</li>
+            <a href="/quem-somos" onClick={handleClick}>
+              <li>Quem somos</li>
             </a>
-            <a href="#project2" onClick={handleClick}>
-              <li>Projects</li>
+            <a href="/quem-somos" onClick={handleClick}>
+              <li>Crypto Tech</li>
             </a>
-            <a href="#contact" onClick={handleClick}>
-              <li>Contact</li>
+            <a href="/quem-somos" onClick={handleClick}>
+              <li>Programa Eu Sou</li>
+            </a>
+            <a href="/visao" onClick={handleClick}>
+              <li>Visão</li>
+            </a>
+            <a href="/contato" onClick={handleClick}>
+              <li>Contato</li>
             </a>
           </ul>
         </div>
