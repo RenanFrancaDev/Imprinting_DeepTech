@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+  padding: 8px;
+  border-top: 1px solid var(--blue2);
+}
+
+footer a,
+footer p {
+  font-size: 0.8rem;
+}
+
+footer p a {
+  color: var(--blue2);
+  font-weight: 500;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 8px;
+  color: var(--pink2);
+}
