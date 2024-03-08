@@ -1,8 +1,8 @@
 import "./button.css";
-const Button = () => {
+const Button = ({ text, link }) => {
   return (
-    <a href="/crypto-tech">
-      <button>Saiba mais</button>
+    <a href={link}>
+      <button>{text}</button>
     </a>
   );
 };
