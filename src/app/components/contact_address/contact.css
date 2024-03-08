@@ -1,0 +1,7 @@
+.contact_address li {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  padding: 5px;
+  gap: 3px;
+}
