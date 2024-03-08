@@ -3,6 +3,7 @@ import Card from "@/app/components/card";
 import Image from "next/image";
 import MiniCard from "@/app/components/mini-card";
 import { Search } from "lucide-react";
+import Accordion from "@/app/components/accordion";
 const Metodologia = () => {
   return (
     <>
@@ -14,54 +15,24 @@ const Metodologia = () => {
       >
         <Image src="/images/client.png" alt="logo" width={100} height={100} />
       </Container>
-      <h2>Abordagem científica:</h2>
-      <p>
-        Essa abordagem incentiva a colaboração entre pesquisadores de diferentes
-        disciplinas, o que pode ajudar a garantir que as novas tecnologias sejam
-        baseadas nas melhores evidências disponíveis. Essa colaboração pode
-        ajudar a garantir que as novas tecnologias sejam baseadas em uma
-        compreensão profunda dos mecanismos biológicos, psicológicos, sociais e
-        espirituais que contribuem para a saúde e o bem-estar.
-      </p>
-      <p>
-        No contexto do programa Eu Sou: a abordagem científica será aplicada por
-        meio de projetos de pesquisa e desenvolvimento que explorem as
-        possibilidades terapêuticas de plantas medicinais, fungos alucinógenos e
-        substâncias psicoativas. Esses projetos serão conduzidos por uma equipe
-        multidisciplinar de pesquisadores, incluindo especialistas em medicina,
-        psicologia, sociologia, antropologia e espiritualidade
-      </p>
-      <h2>Abordagem espiritual e cultural:</h2>
-      <p>
-        Essa abordagem reconhece que a saúde é um fenômeno complexo que é
-        influenciado por uma variedade de fatores, incluindo fatores biológicos,
-        psicológicos, sociais e espirituais. Essa abordagem reconhece que a
-        saúde é mais do que apenas a ausência de doença, e que o bem-estar
-        físico, mental, social e espiritual são todos interconectados.
-      </p>
-      <p>
-        No contexto do programa "Eu Sou", a abordagem espiritual e cultural será
-        aplicada por meio de um programa de acolhimento e acompanhamento que
-        oferece suporte holístico aos participantes. Esse programa incluirá
-        atividades que promovem o autoconhecimento, a espiritualidade e a
-        integração social.
-      </p>
-
-      <h2>Abordagem holística:</h2>
-      <p>
-        Essa abordagem reconhece que a saúde é uma parte da saúde geral e que a
-        saúde e a doença física estão interconectadas. Essa abordagem enfatiza a
-        importância de considerar o indivíduo como um todo, e não apenas seus
-        sintomas ou doenças específicas.
-      </p>
-      <p>
-        No contexto do programa "Eu Sou", a abordagem holística será aplicada
-        por meio de uma abordagem integrada que combina as abordagens
-        científica, espiritual e cultural. Essa abordagem visa promover o
-        desenvolvimento de tecnologias que sejam eficazes para tratar uma ampla
-        gama de condições de saúde, incluindo condições físicas, mentais e
-        espirituais.
-      </p>
+      <Accordion
+        title={"Abordagem científica"}
+        text={
+          "Essa abordagem incentiva a colaboração entre pesquisadores de diferentes disciplinas, o que pode ajudar a garantir que as novas tecnologias sejam baseadas nas melhores evidências disponíveis. Essa colaboração pode ajudar a garantir que as novas tecnologias sejam baseadas em uma compreensão profunda dos mecanismos biológicos, psicológicos, sociais e espirituais que contribuem para a saúde e o bem-estar. \n No contexto do programa Eu Sou: a abordagem científica será aplicada por meio de projetos de pesquisa e desenvolvimento que explorem as possibilidades terapêuticas de plantas medicinais, fungos alucinógenos e substâncias psicoativas. Esses projetos serão conduzidos por uma equipe multidisciplinar de pesquisadores, incluindo especialistas em medicina, psicologia, sociologia, antropologia e espiritualidade"
+        }
+      />
+      <Accordion
+        title={"Abordagem espiritual e cultural"}
+        text={
+          "Essa abordagem reconhece que a saúde é um fenômeno complexo que é influenciado por uma variedade de fatores, incluindo fatores biológicos, psicológicos, sociais e espirituais. Essa abordagem reconhece que a saúde é mais do que apenas a ausência de doença, e que o bem-estar físico, mental, social e espiritual são todos interconectados. \n No contexto do programa 'Eu Sou', a abordagem espiritual e cultural será aplicada por meio de um programa de acolhimento e acompanhamento que oferece suporte holístico aos participantes. Esse programa incluirá atividades que promovem o autoconhecimento, a espiritualidade e a integração social."
+        }
+      />
+      <Accordion
+        title={"Abordagem holística"}
+        text={
+          'Essa abordagem reconhece que a saúde é uma parte da saúde geral e que a saúde e a doença física estão interconectadas. Essa abordagem enfatiza a importância de considerar o indivíduo como um todo, e não apenas seus sintomas ou doenças específicas. \n No contexto do programa "Eu Sou", a abordagem holística será aplicada por meio de uma abordagem integrada que combina as abordagens científica, espiritual e cultural. Essa abordagem visa promover o desenvolvimento de tecnologias que sejam eficazes para tratar uma ampla gama de condições de saúde, incluindo condições físicas, mentais e espirituais. '
+        }
+      />
 
       <Container
         h2Text={"Pesquisa e desenvolvimento"}
