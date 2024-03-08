@@ -16,16 +16,25 @@ const Header = () => {
           <h3 className="title_header">Imprinting</h3>
         </a>
         <ul className="list">
-          <a href="/">
+          <a href="/" onClick={handleClick}>
             <li>Home</li>
           </a>
-          <a href="/quem-somos">
-            <li>Quem Somos</li>
+          <a href="/quem-somos" onClick={handleClick}>
+            <li>Quem somos</li>
           </a>
-          <a href="/visao">
+          <a href="/crypto-tech" onClick={handleClick}>
+            <li>Crypto Tech</li>
+          </a>
+          <a href="/eu-sou" onClick={handleClick}>
+            <li>Programa Eu Sou</li>
+          </a>
+          <a href="/visao" onClick={handleClick}>
             <li>Visão</li>
           </a>
-          <a href="/contato">
+          <a href="/metodologia" onClick={handleClick}>
+            <li>Metodologia</li>
+          </a>
+          <a href="/contato" onClick={handleClick}>
             <li>Contato</li>
           </a>
           {/* <input type="checkbox" className="checkbox" id="chk" />
@@ -51,14 +60,17 @@ const Header = () => {
             <a href="/quem-somos" onClick={handleClick}>
               <li>Quem somos</li>
             </a>
-            <a href="/quem-somos" onClick={handleClick}>
+            <a href="/crypto-tech" onClick={handleClick}>
               <li>Crypto Tech</li>
             </a>
-            <a href="/quem-somos" onClick={handleClick}>
+            <a href="/eu-sou" onClick={handleClick}>
               <li>Programa Eu Sou</li>
             </a>
             <a href="/visao" onClick={handleClick}>
               <li>Visão</li>
+            </a>
+            <a href="/metodologia" onClick={handleClick}>
+              <li>Metodologia</li>
             </a>
             <a href="/contato" onClick={handleClick}>
               <li>Contato</li>
