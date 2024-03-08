@@ -1,5 +1,5 @@
 import "./container_text.css";
-const Container = ({ h2Text, pText, color }) => {
+const Container = ({ h2Text, pText, color, children = null }) => {
   return (
     <section className={color}>
       <h2
@@ -8,6 +8,7 @@ const Container = ({ h2Text, pText, color }) => {
       >
         {h2Text}
       </h2>
+      {children}
       <p className="text_white ">{pText}</p>
     </section>
   );
