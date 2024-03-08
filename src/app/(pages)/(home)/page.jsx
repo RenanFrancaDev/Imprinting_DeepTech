@@ -17,7 +17,7 @@ const Home = () => {
         }
         color={"transparent"}
       />
-      <Button />
+      <Button text={"Saiba Mais"} link={"/crypto-tech"} />
       <ContainerText
         h2Text={"Instituto Imprinting: Transformando a Pesquisa em DeepTech"}
         pText={
@@ -25,6 +25,7 @@ const Home = () => {
         }
         color={"color"}
       />
+
       <Card
         title={"Pesquisadores"}
         text={
